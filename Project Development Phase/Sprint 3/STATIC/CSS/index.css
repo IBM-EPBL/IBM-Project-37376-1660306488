@@ -1,36 +1,9 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@AdhithyaSekhar 
-IBM-EPBL
-/
-IBM-Project-16237-1659610091
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-IBM-Project-16237-1659610091/Project Development Phase/Sprint 1/index.css
-@Kalai-2610
-Kalai-2610 Add files via upload
-Latest commit 235b4b9 2 days ago
- History
- 1 contributor
-104 lines (103 sloc)  2.19 KB
-
 *{
-    background-color: #0e1538;
+    background-color: #292929;
     color: whitesmoke;
     font-variant: small-caps;
     font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -40,6 +13,9 @@ body{
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+#ans{
+    text-align: center;
 }
 h2{
     display: block;
@@ -58,7 +34,7 @@ td{
     text-align: justify;
 }
 input{
-    border-radius: 1em;
+    border-radius: 2px;
     border: solid;
     border-color: whitesmoke;
     border-width: 2px;
@@ -79,7 +55,7 @@ input::placeholder{
     padding: 2px;
     width: max-content;
     border-radius: 1em;
-    background: linear-gradient(45deg,#00ccff,#0e1538,#d400d4);
+    background: #1aff22;
     display: inline;
 }
 #submit,#reset{
@@ -129,18 +105,3 @@ h4{
     text-align: center;
     background: #0e1538;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-IBM-Project-16237-1659610091/index.css at main · IBM-EPBL/IBM-Project-16237-1659610091

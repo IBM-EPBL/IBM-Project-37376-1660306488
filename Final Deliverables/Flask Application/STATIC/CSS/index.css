@@ -1,0 +1,107 @@
+*{
+    background-color: #292929;
+    color: whitesmoke;
+    font-variant: small-caps;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 200px;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#ans{
+    text-align: center;
+}
+h2{
+    display: block;
+    font-size: 1.5cm;
+    margin: 0.7em;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+td{
+    margin: 1em;
+    padding: 0.5em;
+    text-align: justify;
+}
+input{
+    border-radius: 2px;
+    border: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+    color: #00ccff;
+    padding: 0.2em 0.7em;
+    -moz-appearance: textfield; /*For Firefox*/
+}
+/*For Chrome and safari*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder{
+    color: #00ccff;
+}
+#btndiv{
+    padding: 2px;
+    width: max-content;
+    border-radius: 1em;
+    background: #1aff22;
+    display: inline;
+}
+#submit,#reset{
+    /*border-radius: 1em;
+    border-style: solid;
+    border-color: whitesmoke;*/
+    border: none;
+    background: #0e1538;
+    color: whitesmoke;
+    padding: 0.2em 0.7em;
+    border-radius: 1em;
+}
+#btn{
+    display: flex;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#btndiv:hover{
+    background: linear-gradient(45deg,#1aff22,#0e1538,#ff075b);
+}
+
+#positive{
+    background: linear-gradient(60deg,#1aff22,#0e1538,#0e1538,#0e1538,#1aff22);
+    padding: 5px;
+    margin: 1em;
+    border-radius: 3rem;
+}
+#negative{
+    background: linear-gradient(60deg,#ff075b,#0e1538,#0e1538,#0e1538,#ff075b);
+    padding: 5px;
+    margin: 1em;
+    border-radius: 3rem;
+}
+#positive:hover{
+    background: linear-gradient(300deg,#1aff22,#0e1538,#0e1538,#0e1538,#1aff22);
+}
+#negative:hover{
+    background: linear-gradient(300deg,#ff075b,#0e1538,#0e1538,#0e1538,#ff075b);
+}
+h4{
+    display: block;
+    font-size: 0.8cm;
+    margin: auto;
+    padding: 1em;
+    border-radius: 3rem;
+    text-align: center;
+    background: #0e1538;
+}

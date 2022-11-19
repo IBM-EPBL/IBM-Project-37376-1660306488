@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Aircraft</title>
+</head>
+<body>
+    <h2>Aircraft Engine Failure Prediction</h2>
+    <div id="positive" hidden><h4 id="pos_data">Positive</h4></div>
+    <div id="negative" hidden><h4 id="neg_data">Negative</h4></div>
+    <table>
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+        <tr>
+            <td>sensor2</td>
+            <td><input name="age" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor3</td>
+            <td><input name="tb" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor4</td>
+            <td><input name="ap" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor7</td>
+            <td><input name="aa" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor8</td>
+            <td><input name="asa" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor9</td>
+            <td><input name="tp" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor15</td>
+            <td><input name="a" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor17</td>
+            <td><input name="agr" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor20</td>
+            <td><input name="a1" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td>sensor21</td>
+            <td><input name="a2" type="number" min="0" step="0.01" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="btn"><div id="btndiv"><input id="submit" type="submit" value="Predict"></div>&emsp;<div id="btndiv"><input id="reset" type="reset" value="Clear"></div></td>
+        </tr>
+        
+        </form>
+    </table>
+</body>
+</html>
